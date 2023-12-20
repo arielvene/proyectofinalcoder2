@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, Text, View } from 'react-native'
 import categories from "../Data/categories.json"
 import CategoryItem from './CategoryItem'
 
-const Categories = ({setCategorySelected}) => {
+const Categories = ({navigation,route}) => {
   return (
     <FlatList
         style={styles.container}
